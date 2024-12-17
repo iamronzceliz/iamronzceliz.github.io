@@ -2146,6 +2146,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.header-img img {
+				border-radius: 0%;
+				width: 100%;
+			}
+
 /* List */
 
 	ol {
@@ -2632,7 +2637,8 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: #ffffff;
+			/* color: rgba(255, 255, 255, 0.5); */
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2640,7 +2646,8 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			/* width: 6.25em; */
+			width: 20.25em;
 		}
 
 /* Footer */
